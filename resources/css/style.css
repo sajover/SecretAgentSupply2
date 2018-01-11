@@ -1,6 +1,8 @@
+
 body {
   font-family: Helvetica;
   font-size: 18px;
+  color: white;
 }
 
 
@@ -13,9 +15,9 @@ header {
 
 .container {
   width: 960px;
-  color: white;
   align-items: center;
   display: flex;
+  border: 3px solid pink;
 }
 
 header img {
@@ -26,4 +28,34 @@ header img {
 h2 {
   font-size: 1rem;
   padding: 0.66rem 1rem;
+}
+
+.banner {
+background-image: url(/Users/sajover/Documents/Proyectos/SecretAgentSupply2/resources/images/moto.jpeg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 25rem;
+display: flex;
+justify-content: center;
+border: 3px solid green;
+
+}
+
+.text-banner {
+  background-color: black;
+  font-weight: bold;
+  width: 20rem;
+  margin-top: 9rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 3rem;
+}
+
+.text-banner h1{
+  font-size: 2rem;
+  padding-top: 0.25rem;
+}
+.text-banner h2{
+  padding-left: 0px;
 }
