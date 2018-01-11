@@ -41,7 +41,9 @@ justify-content: center;
 border: 3px solid green;
 
 }
-
+.banner .container{
+  align-items: flex-start;
+}
 .text-banner {
   background-color: black;
   font-weight: bold;
