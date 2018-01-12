@@ -110,3 +110,14 @@ nav ul {
 .product img {
   max-width: 8rem;
 }
+
+/* Contact */
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.location .container{
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid pink;
+}
