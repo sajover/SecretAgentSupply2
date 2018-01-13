@@ -139,3 +139,11 @@ nav ul {
 .text {
   color: black;
 }
+
+/* Footer */
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+}
