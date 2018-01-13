@@ -16,7 +16,6 @@ header {
   width: 960px;
   align-items: center;
   display: flex;
-  border: 3px solid pink;
 }
 
 header img {
@@ -37,7 +36,6 @@ background-size: cover;
 height: 25rem;
 display: flex;
 justify-content: center;
-border: 3px solid green;
 
 }
 .banner .container{
@@ -126,7 +124,6 @@ nav ul {
 .location{
   display: flex;
   flex-direction: column;
-  border: 2px solid green;
   width: 35%;
   margin-bottom: 4rem;
 }
@@ -138,6 +135,7 @@ nav ul {
 
 .text {
   color: black;
+  padding-top: 1rem;
 }
 
 /* Footer */
