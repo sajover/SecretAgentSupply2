@@ -59,6 +59,25 @@ justify-content: center;
   padding-left: 0px;
 }
 
+@media only screen and (max-width:470px) {
+  .banner {
+  height: 15rem;
+  }
+  .text-banner {
+    width: 100%;
+    margin-top: 10rem;
+    padding: 1rem 2rem;
+  }
+  .text-banner h1{
+    font-size: 1rem;
+    padding-top: 0.25rem;
+  }
+  .text-banner h2{
+    font-size: 0.77rem;
+  }
+}
+
+
 nav {
   background-color: firebrick;
   padding: 0.74rem 0rem;
@@ -134,7 +153,20 @@ nav.small-screen{
     display: none;
   }
 }
-
+@media only screen and (max-width:470px){
+  .product{
+    width: 90%;
+  }
+  .product.glasses{
+    display: none;
+  }
+  .product.watch{
+    display: none;
+  }
+  .gallery .container{
+    justify-content: center;
+  }
+}
 
 /* Contact */
 .contact {
@@ -170,10 +202,34 @@ nav.small-screen{
     width: 35%;
   }
 }
+@media only screen and (max-width:470px){
+  .address.container {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+ .location{
+   width: 90%;
+ }
+
+ .location.place{
+   margin-bottom: 1.5rem;
+ }
+
+}
+
+
+
 /* Footer */
 footer {
   background-color: black;
   display: flex;
   justify-content: center;
   height: 5rem;
+}
+
+@media only screen and (max-width:470px){
+  footer .container{
+    justify-content: center;
+  }
 }
