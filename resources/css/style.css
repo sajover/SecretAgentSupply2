@@ -72,6 +72,23 @@ nav ul {
   justify-content: space-between;
 }
 
+nav.small-screen{
+  display: none;
+}
+
+@media only screen and (max-width:1024px){
+  nav {
+    display: none;
+  }
+  nav.small-screen {
+    background-color: firebrick;
+    padding: 0.74rem 0rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
 .gallery {
   width: 100%;
   display: flex;
@@ -109,6 +126,16 @@ nav ul {
   max-width: 8rem;
 }
 
+@media only screen and (max-width:1024px){
+  .product{
+    width: 47%;
+  }
+  .product.glasses{
+    display: none;
+  }
+}
+
+
 /* Contact */
 .contact {
   display: flex;
@@ -138,6 +165,11 @@ nav ul {
   padding-top: 1rem;
 }
 
+@media only screen and (max-width: 1024px){
+  .location {
+    width: 35%;
+  }
+}
 /* Footer */
 footer {
   background-color: black;
